@@ -45,8 +45,8 @@
             this.clmDestinationStation = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clmArrivalTime = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clmDuration = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnSearch = new System.Windows.Forms.Button();
             this.clmDelay = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btnSearch = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.grbTime.SuspendLayout();
@@ -108,7 +108,7 @@
             // 
             // dtpTime
             // 
-            this.dtpTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.dtpTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dtpTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dtpTime.Location = new System.Drawing.Point(110, 25);
@@ -120,7 +120,7 @@
             // 
             // grbLocation
             // 
-            this.grbLocation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.grbLocation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grbLocation.Controls.Add(this.lblStartLocation);
             this.grbLocation.Controls.Add(this.lblDestinationLocation);
@@ -144,7 +144,7 @@
             this.lblStartLocation.Name = "lblStartLocation";
             this.lblStartLocation.Size = new System.Drawing.Size(109, 14);
             this.lblStartLocation.TabIndex = 0;
-            this.lblStartLocation.Text = "Startort:";
+            this.lblStartLocation.Text = "Startort";
             // 
             // lblDestinationLocation
             // 
@@ -158,7 +158,7 @@
             // 
             // cmbStartLocation
             // 
-            this.cmbStartLocation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.cmbStartLocation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbStartLocation.FormattingEnabled = true;
             this.cmbStartLocation.Location = new System.Drawing.Point(130, 26);
@@ -169,7 +169,7 @@
             // 
             // cmbDestinationLocation
             // 
-            this.cmbDestinationLocation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.cmbDestinationLocation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbDestinationLocation.FormattingEnabled = true;
             this.cmbDestinationLocation.Location = new System.Drawing.Point(130, 51);
@@ -181,8 +181,8 @@
             // ltvConnections
             // 
             this.ltvConnections.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
-            this.ltvConnections.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.ltvConnections.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ltvConnections.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.clmStartStation,
@@ -229,6 +229,11 @@
             this.clmDuration.Text = "Reisezeit";
             this.clmDuration.Width = 150;
             // 
+            // clmDelay
+            // 
+            this.clmDelay.Text = "Verspätung";
+            this.clmDelay.Width = 150;
+            // 
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.Blue;
@@ -239,11 +244,6 @@
             this.btnSearch.TabIndex = 8;
             this.btnSearch.Text = "Verbindungen Suchen";
             this.btnSearch.UseVisualStyleBackColor = false;
-            // 
-            // clmDelay
-            // 
-            this.clmDelay.Text = "Verspätung";
-            this.clmDelay.Width = 150;
             // 
             // pictureBox1
             // 
